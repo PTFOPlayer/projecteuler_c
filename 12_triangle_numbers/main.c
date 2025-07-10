@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]) {
                 }
             }
     }
-    printf("%lld \t %lld\n", triangle_number, n);
+    printf("%lu \t %lu\n", triangle_number, n);
 
     return 0;
 }

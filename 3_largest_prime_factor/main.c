@@ -26,7 +26,7 @@ int main(int argc, char const *argv[]) {
         }
     }
 
-    printf("%ld", max);
+    printf("%lu", max);
     return 0;
 }
 

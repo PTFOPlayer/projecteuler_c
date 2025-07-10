@@ -6,6 +6,6 @@ int main(int argc, char const *argv[]) {
     
     for (size_t i = 0; i < 1000; i++) sum += i * ((i % 5 == 0) || (i % 3 == 0));
 
-    printf("%ld", sum);
+    printf("%lu", sum);
     return 0;
 }

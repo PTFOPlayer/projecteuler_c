@@ -42,7 +42,7 @@ int main(int argc, char const *argv[]) {
         }
     }
 
-    printf("%ld, %ld\n", current_primes, max);
+    printf("%lu, %lu\n", current_primes, max);
 
     uint64_t sum = 0;
     for (uint64_t i = 0; i < current_primes; i++) sum += primes[i];

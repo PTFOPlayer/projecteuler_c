@@ -43,13 +43,6 @@ const char grid[400][3] = {
 };
 
 int main(int argc, char const *argv[]) {
-    for (uint64_t i = 0; i < 20; i++) {
-        for (uint64_t j = 0; j < 20; j++) {
-            printf("%ld ", atoi(grid[(i * 20) + j]));
-        }
-        printf("\n");
-    }
-
     uint64_t max_du = 0;
     for (size_t i = 0; i < 17; i++) {
         for (uint64_t j = 0; j < 20; j++) {
@@ -96,6 +89,6 @@ int main(int argc, char const *argv[]) {
     if (max_diag_rd > max) max = max_diag_rd;
     
 
-    printf("%ld, %ld, %ld, %ld\n", max_du, max_lr, max_diag_ld, max_diag_rd);
-    printf("max: %ld", max);
+    printf("%lu, %lu, %lu, %lu\n", max_du, max_lr, max_diag_ld, max_diag_rd);
+    printf("max: %lu", max);
 }

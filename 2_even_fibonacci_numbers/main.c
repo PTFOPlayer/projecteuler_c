@@ -14,7 +14,7 @@ int main(int argc, char const *argv[]) {
         f2 = temp;
     }
 
-    printf("%ld", sum);
+    printf("%lu", sum);
 
     return 0;
 }
